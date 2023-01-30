@@ -7,7 +7,7 @@ class HooknPatch
 {
 private:
 	// This gatway variable stores the original bytes of function
-	char* m_gateWay;
+	char* m_gateWay {};
 
 public:
 	

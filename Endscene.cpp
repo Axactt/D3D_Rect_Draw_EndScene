@@ -11,7 +11,7 @@ using aliasEndscene = HRESULT( __stdcall* )(IDirect3DDevice9*);
 aliasEndscene  EndScenePtr { nullptr };
 
 // using hooking class here
-HooknPatch hNP;
+HooknPatch hNP {};
 
 int gameWindowWidth {};
 int gameWindowHeight {};
